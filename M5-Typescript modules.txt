@@ -1,0 +1,51 @@
+Deliverable: a Zip file containing:
+A pdf or text file containing a description of the environment that you used to test your code
+(at least operating system and computer architecture), a short description of how you would test your code
+to make sure it would work for the majority of the users using your web page,
+and a short description or list of what advanced TypeScript features you are using in this assignment
+and a one-paragraph description of what you can do to debug TypeScript codes.
+The file containing the complete source code of your TypeScript programs.
+The Webpack project that you created.
+
+
+version of Typescript: Version 4.9.3
+configuration of Typescript: tsconfig.json(see in the project)
+
+Browser version:
+Google Chrome: 107.0.5304.110 (Official Build) (arm64)
+PyCharm browser: 2021.2.3 (Professional Edition)
+Safari: Version 15.1 (17612.2.9.1.20)
+Firefox browser: 107.0 (64-bit)
+Opera browser: Version:92.0.4561.61 (arm64)
+
+
+Operating system and computer architecture:
+Runtime version: 11.0.12+7-b1504.40 arch64
+Memory: 2048M
+Cores: 8
+Operating system: macOS Monterey 12.0.1
+Computer architecture: MacBook Pro with Apple M1 Pro
+
+
+Description of testing: 
+First, Functionality Testing will be done. I got local running on Google Chrome, PyCharm browser, Safari, Firefox browser, Opera browser.
+Second, I would like to use the automated testing tool Selenium to simulate testing in a different environment, for example, Node and browser versions, OS versions, etc. 
+Lastly, I will get my classmates to do A/B testing for my webpage.
+This should satisfy the majority of users' needs. 
+
+
+TypeScript features:
+1. Typescript adopts the basic building blocks of your program from JavaScript.
+All TypeScript code is converted into its JavaScript equivalent for the purpose of execution.
+I did this with:
+$npm install typescript
+$tsc app.ts
+Then app.ts created a file app.js, but app.js didn't show in my project, then I changed its name back and forth, then it shows.
+For example, I put "<script src="app.js"></script>" in a .html file, just as I did with javascript.
+
+2.JavaScript is TypeScript. This means that any valid .js file can be renamed to .ts and compiled with other TypeScript files.
+
+3.TypeScript is portable. TypeScript is portable across browsers, devices, and operating systems.
+It can run on any environment that JavaScript runs on. Unlike its counterparts, TypeScript doesn’t need a dedicated
+VM or a specific runtime environment to execute.
+

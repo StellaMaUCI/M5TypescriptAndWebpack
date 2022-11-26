@@ -1,7 +1,6 @@
 {
   "name": "module-5",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,17 +13,28 @@
     "@types/node": "^16.11.7",
     "@types/react": "^17.0.35",
     "@types/react-dom": "^17.0.11",
-    "css-loader": "^6.5.1",
     "html-webpack-plugin": "^5.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "style-loader": "^3.3.1",
+    "systemjs": "^6.13.0",
     "workbox-webpack-plugin": "^6.4.1"
   },
   "devDependencies": {
     "@webpack-cli/generators": "^3.0.0",
-    "webpack": "^5.64.1",
+    "css-loader": "^6.7.2",
+    "ts-loader": "^9.4.1",
+    "webpack": "^5.75.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StellaMaUCI/M5TypescriptAndWebpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StellaMaUCI/M5TypescriptAndWebpack/issues"
+  },
+  "homepage": "https://github.com/StellaMaUCI/M5TypescriptAndWebpack#readme",
+  "description": ""
 }

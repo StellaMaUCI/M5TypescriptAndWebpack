@@ -1,5 +1,4 @@
-import "./style.css" // bundle
-import * as TheModule from "./MyModule"
+import * as MyModule from "./src/MyModule"
 
-TheModule.start(); //from TheModule get class navbar and assign it to NavBar
-TheModule.alertMsg("Developed in Webpack with Modules")
+MyModule.start(); //from mymodule get class navbar and assign it to NavBar
+MyModule.alertMsg("Developed in Webpack with Modules!")

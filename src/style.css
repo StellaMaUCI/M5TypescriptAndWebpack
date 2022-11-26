@@ -93,10 +93,10 @@ figure {
     border: 1px solid #eeeeee;
 }
 
-figcaption {
-    font-size: 90%;
-    text-align: left;
-}
+/*figcaption {*/
+/*    font-size: 90%;*/
+/*    text-align: left;*/
+/*}*/
 
 aside {
     width: 230px;

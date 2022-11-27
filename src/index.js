@@ -1,6 +1,6 @@
-
-import "./style.css" // put .css file in index.js to bundle together
-import * as MyModule from "./MyModule"
-
-MyModule.start(); //from mymodule get class navbar and assign it to NavBar
-MyModule.alertMsg("Developed in Webpack with Modules!")
+console.log("Hello World!");
+var a = 2;
+var b = 5;
+var c = a * b;
+alert(c);
+//# sourceMappingURL=index.js.map

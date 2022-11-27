@@ -1,10 +1,15 @@
 {
-  "name": "module-5",
+  "name": "my-webpack-project",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve"
+    "start": "webpack serve",
+    "build": "webpack --mode=production --define-process-env-node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --define-process-env-node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
   },
   "keywords": [],
   "author": "",
@@ -13,20 +18,23 @@
     "@types/node": "^16.11.7",
     "@types/react": "^17.0.35",
     "@types/react-dom": "^17.0.11",
-    "html-webpack-plugin": "^5.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "style-loader": "^3.3.1",
-    "systemjs": "^6.13.0",
-    "workbox-webpack-plugin": "^6.4.1"
+    "systemjs": "^6.13.0"
   },
   "devDependencies": {
     "@webpack-cli/generators": "^3.0.0",
     "css-loader": "^6.7.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "prettier": "^2.8.0",
+    "style-loader": "^3.3.1",
     "ts-loader": "^9.4.1",
+    "typescript": "^4.9.3",
     "webpack": "^5.75.0",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.5.0"
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1",
+    "workbox-webpack-plugin": "^6.5.4"
   },
   "repository": {
     "type": "git",
@@ -36,5 +44,5 @@
     "url": "https://github.com/StellaMaUCI/M5TypescriptAndWebpack/issues"
   },
   "homepage": "https://github.com/StellaMaUCI/M5TypescriptAndWebpack#readme",
-  "description": ""
+  "description": "My webpack project"
 }
